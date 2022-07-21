@@ -91,6 +91,6 @@ function convert() {
 	for (var i = 0; i < postfix.length; i++)
 		st += postfix[i];
 
-    document.getElementById("postfix").value = st;
+	document.getElementById("postfix").value = st;
 
 }
